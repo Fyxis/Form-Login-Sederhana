@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(50, 102, 109);
+}
+
+.container {
+  margin: 250px;
+  padding: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.container {
+  position: absolute;
+  left: 32%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+  padding: 20px 25px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.container h1 {
+  text-align: center;
+  background-color: rgba(51, 86, 91, 0.537);
+  color: #fafafa;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #70f7ce;
+}
+
+.container label {
+  text-align: center;
+  font-size: 24px;
+}
+
+.container form input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #70f7ce;
+  color: #fff;
+  font-size: 24px;
+}
+
+.container form button {
+  width: 100%;
+  padding: 5px 0;
+  border: #57f8c8;
+  background-color: #57f8c8;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+
+.container form button:hover {
+  background-color: #cde66c;
+  cursor: pointer;
+}
